@@ -1,0 +1,24 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "Application developed for tesing purposes",
+  "main": "index.js",
+  "scripts": {
+    "buildtw": "tailwindcss build ./tailwind.css -o views/styles.css"
+  },
+  "author": "Arjol Panci",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.1.1"
+  }
+}
